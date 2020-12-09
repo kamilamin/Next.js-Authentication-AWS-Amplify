@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "nextauthtest399b5007": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
