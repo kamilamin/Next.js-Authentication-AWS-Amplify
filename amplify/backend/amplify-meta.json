@@ -1,0 +1,38 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-nextauthtest-dev-101718-authRole",
+      "UnauthRoleArn": "arn:aws:iam::517291410289:role/amplify-nextauthtest-dev-101718-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::517291410289:role/amplify-nextauthtest-dev-101718-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-nextauthtest-dev-101718-deployment",
+      "UnauthRoleName": "amplify-nextauthtest-dev-101718-unauthRole",
+      "StackName": "amplify-nextauthtest-dev-101718",
+      "StackId": "arn:aws:cloudformation:us-east-1:517291410289:stack/amplify-nextauthtest-dev-101718/d3914240-39dd-11eb-bca1-0a2de5ab949d",
+      "AmplifyAppId": "d3srd8y5ngn2p8"
+    }
+  },
+  "auth": {
+    "nextauthtest399b5007": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-nextauthtest-dev-101718-deployment/amplify-cfn-templates/auth/nextauthtest399b5007-cloudformation-template.yml",
+        "logicalId": "authnextauthtest399b5007"
+      },
+      "lastPushTimeStamp": "2020-12-09T05:22:29.066Z",
+      "output": {
+        "AppClientSecret": "n1gp06v07c8cc19e3hcqtapu1iadk9gm7ou9klsj9u0kc8s593c",
+        "UserPoolId": "us-east-1_qGTCdfWR9",
+        "AppClientIDWeb": "1chvihv9thllnrpbvh8a3ks3ik",
+        "AppClientID": "1rc3osd0do6n1ke9a5mvokm0ah",
+        "IdentityPoolId": "us-east-1:dc238e61-f9bc-45a6-83ca-e6e4533d73d8",
+        "IdentityPoolName": "nextauthtest399b5007_identitypool_399b5007__dev",
+        "UserPoolName": "nextauthtest399b5007_userpool_399b5007"
+      },
+      "lastPushDirHash": "7HRCx8S6PkBNkjw4B8MQkwAeUZE="
+    }
+  }
+}
